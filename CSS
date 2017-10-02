@@ -1,0 +1,33 @@
+#game{
+  margin-left:300px;
+  text-align:center;
+  
+}
+body{
+  font-family: 'Macondo', cursive;
+  font-size:30px;
+  color:white;
+  background-color:red;
+  background-image:url(https://animationchicken.files.wordpress.com/2016/11/walk1.gif?w=381&h=213&crop=1&zoom=2);
+  text-align:center; 
+}
+footer{
+ font-size:10px; 
+}
+
+#gameCanvas{
+  box-shadow:0px 0px 10px 0px black;
+  padding:10px;
+  border-style:double;
+  align-content:center;
+
+  margin:auto;
+  animation-name: example2;
+  animation-duration: .25s;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+}
+@keyframes example2 {
+  0%   {width:700px;height=300px;}
+  100%  {width:800px;height=300px;}
+}
